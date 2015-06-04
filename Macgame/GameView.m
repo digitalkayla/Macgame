@@ -35,12 +35,12 @@
             [SCNTransaction begin];
             [SCNTransaction setAnimationDuration:0.5];
 
-            material.emission.contents = [NSColor blackColor];
+            material.emission.contents = [NSColor purpleColor];
             
             [SCNTransaction commit];
         }];
         
-        material.emission.contents = [NSColor redColor];
+        material.emission.contents = [NSColor blueColor];
         
         [SCNTransaction commit];
     }
